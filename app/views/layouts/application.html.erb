@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Law</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<div id="main">
+	
+
+	<header>
+		<h1>Peterson | Nykamp Law</h1>
+		<ul>
+			<li><%= link_to "About Us", page_path("about") %></li>
+			<li><%= link_to "Attorneys", page_path("about") %></li>
+			<li><%= link_to "Practice Areas", page_path("practice_areas") %></li>
+			<li><%= link_to "Contact", page_path("contact") %></li>
+		</ul>
+	</header><!-- /header -->
+
+<%= yield %>
+</div>
+</body>
+</html>

@@ -35,6 +35,16 @@ h1 {
 	margin-left: 50px;
 }
 
+h3 {
+	float: left;
+	position: absolute;
+	color: white;
+	margin-top: 75px;
+	margin-left: 75px;
+	font-style: italic;
+	font-family: Arial;
+}
+
 ul li {
 	color: white;
 	float:left;
@@ -44,14 +54,24 @@ ul li {
 	padding-left: 64px;
 	text-decoration: none;
 
+
 }
 
 ul li a {
 	color: white;
 	list-style-type: none;
 	text-decoration: none;
+	font-size: 20px;
 }
 
 ul li a:hover {
-	text-decoration: underline;
+	border-bottom: solid white 3px;
+}
+
+#practice-areas ul li {
+	color: black;
+	float: none;
+	display: block;
+	margin-top: 5px;
+
 }
